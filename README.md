@@ -5,7 +5,7 @@
 docker映像檔使用Alpine Linux安裝Subversion 並且使用WebDAV 來存取。這個映像檔版本有啟動'Auto-versioning'功能。
 ## 建構
 ```
-git clone git@github.com:tigerobj/alpine-svn.git
+git clone https://github.com/tigerobj/alpine-svn.git
 cd alpine-svn
 docker build -t tigerobj/alpine-svn .
 ```
